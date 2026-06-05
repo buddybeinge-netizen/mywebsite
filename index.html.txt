@@ -1,0 +1,42 @@
+```html id="x2f8na"
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Emoji Animation</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:black;
+overflow:hidden;
+}
+
+.emoji{
+font-size:120px;
+animation:bounce 1s infinite alternate;
+}
+
+@keyframes bounce{
+from{
+transform:translateY(0px);
+}
+to{
+transform:translateY(-60px);
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="emoji">😎</div>
+
+</body>
+</html>
+```
